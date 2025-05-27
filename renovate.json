@@ -2,5 +2,7 @@
   "extends": ["config:base"],
   "docker": {
     "enabled": true
-  }
+  },
+  "automerge": true,
+  "automergeType": "pr"
 }

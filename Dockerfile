@@ -1,4 +1,4 @@
-FROM linuxserver/plex:1.41.7
+FROM linuxserver/plex:1.40.3
 # Install curl for script downloads
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 # Download patch.sh and docker-entrypoint.sh from GitHub (update URLs if needed)
